@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { BsInstagram } from 'react-icons/bs';
 import { FaFacebook } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -27,15 +28,15 @@ const Footer = () => {
               Découvrez notre sélection unique de produits artisanaux créés avec passion par des artisans locaux.
             </p>
             <div className="flex space-x-4 text-amber-700">
-              <a href="#" className="hover:text-amber-500 transition-colors">
+              <Link href="#" className="hover:text-amber-500 transition-colors">
                 <BsInstagram size={30} />
-              </a>
-              <a href="#" className="hover:text-amber-500 transition-colors">
+              </Link>
+              <Link href="#" className="hover:text-amber-500 transition-colors">
                 <FaFacebook size={30} />
-              </a>
-              <a href="#" className="hover:text-amber-500 transition-colors">
+              </Link>
+              <Link href="#" className="hover:text-amber-500 transition-colors">
                 <FaXTwitter size={30} />
-              </a>
+              </Link>
             </div>
           </div>
           

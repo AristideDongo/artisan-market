@@ -67,7 +67,7 @@ const ProductCard: React.FC<Product> = ({
         
         {/* Prix */}
         <div className="flex items-baseline gap-2 mt-1">
-          <span className="text-xl font-semibold text-amber-900">{price}FCFA</span>
+          <span className="text-[16px] font-semibold text-amber-900">{price}Fcfa</span>
         </div>
       </CardContent>
       

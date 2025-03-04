@@ -13,7 +13,7 @@ const ProductCard: React.FC<Product> = ({
   name, 
   description, 
   price, 
-  rating, 
+  rating,
   userName, 
   imgSrc,
 }) => {

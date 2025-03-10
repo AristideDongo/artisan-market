@@ -7,7 +7,8 @@ export const products = [
     rating: 4.8,
     userName: "Marie Dubois",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Rangement"]
+    categories: ["Décoration", "Rangement"],
+    quantity: 1
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ export const products = [
     rating: 4.5,
     userName: "Pierre Martin",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Plantes", "Décoration"]
+    categories: ["Plantes", "Décoration"],
+    quantity: 1
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ export const products = [
     rating: 5.0,
     userName: "Sophie Laurent",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Bien-être"]
+    categories: ["Décoration", "Bien-être"],
+    quantity: 1
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ export const products = [
     rating: 4.7,
     userName: "Lucie Bernard",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Artisanat"]
+    categories: ["Décoration", "Artisanat"],
+    quantity: 1
   },
   {
     id: 5,
@@ -47,7 +51,8 @@ export const products = [
     rating: 4.3,
     userName: "Alice Lefevre",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Écologique"]
+    categories: ["Décoration", "Écologique"],
+    quantity: 1
   },
   {
     id: 6,
@@ -57,7 +62,8 @@ export const products = [
     rating: 4.6,
     userName: "Julien Dupont",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Rangement", "Décoration"]
+    categories: ["Rangement", "Décoration"],
+    quantity: 1
   },
   {
     id: 7,
@@ -67,7 +73,8 @@ export const products = [
     rating: 5.0,
     userName: "Élise Mercier",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Mobilier", "Écologique"]
+    categories: ["Mobilier", "Écologique"],
+    quantity: 1
   },
   {
     id: 8,
@@ -77,7 +84,8 @@ export const products = [
     rating: 4.7,
     userName: "Jean-Pierre Roy",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Mode", "Accessoires"]
+    categories: ["Mode", "Accessoires"],
+    quantity: 1
   },
   {
     id: 9,
@@ -87,7 +95,8 @@ export const products = [
     rating: 4.8,
     userName: "Marc Lefevre",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Artisanat"]
+    categories: ["Décoration", "Artisanat"],
+    quantity: 1
   },
   {
     id: 10,
@@ -97,7 +106,8 @@ export const products = [
     rating: 4.6,
     userName: "Clara Moreau",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Cuisine", "Artisanat"]
+    categories: ["Cuisine", "Artisanat"],
+    quantity: 1
   },
   {
     id: 11,
@@ -107,7 +117,8 @@ export const products = [
     rating: 4.9,
     userName: "Nicolas Dufresne",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Extérieur", "Bien-être"]
+    categories: ["Extérieur", "Bien-être"],
+    quantity: 1
   },
   {
     id: 12,
@@ -117,7 +128,8 @@ export const products = [
     rating: 4.4,
     userName: "Sophie Girard",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Confort"]
+    categories: ["Décoration", "Confort"],
+    quantity: 1
   },
   {
     id: 13,
@@ -127,7 +139,8 @@ export const products = [
     rating: 4.3,
     userName: "Victor Girard",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Mode", "Accessoires"]
+    categories: ["Mode", "Accessoires"],
+    quantity: 1
   },
   {
     id: 14,
@@ -137,7 +150,8 @@ export const products = [
     rating: 4.5,
     userName: "Charlotte Farel",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Textiles"]
+    categories: ["Décoration", "Textiles"],
+    quantity: 1
   },
   {
     id: 15,
@@ -147,7 +161,8 @@ export const products = [
     rating: 4.6,
     userName: "Antoine Durand",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Mobilier", "Rangement"]
+    categories: ["Mobilier", "Rangement"],
+    quantity: 1
   },
   {
     id: 16,
@@ -157,37 +172,8 @@ export const products = [
     rating: 5.0,
     userName: "Léna Deschamps",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Bijoux", "Mode"]
-  },
-  {
-    id: 17,
-    name: "Boucles d'oreilles en perles",
-    description: "Boucles d'oreilles artisanales en perles naturelles, légères et élégantes, idéales pour vos tenues quotidiennes.",
-    price: 28.50,
-    rating: 4.4,
-    userName: "Céline Vaillant",
-    imgSrc: "/api/placeholder/400/300",
-    categories: ["Bijoux", "Mode"]
-  },
-  {
-    id: 18,
-    name: "Bac à fleurs en bois",
-    description: "Bac à fleurs en bois recyclé, parfait pour planter vos plantes et végétaux tout en apportant une touche naturelle à votre jardin.",
-    price: 40.00,
-    rating: 4.7,
-    userName: "Isabelle Leclerc",
-    imgSrc: "/api/placeholder/400/300",
-    categories: ["Jardin", "Écologique"]
-  },
-  {
-    id: 19,
-    name: "Chandelier en fer forgé",
-    description: "Chandelier en fer forgé, fabriqué à la main, pour une ambiance chaleureuse et élégante dans votre salon.",
-    price: 88.00,
-    rating: 4.8,
-    userName: "Bernard Petit",
-    imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Éclairage"]
+    categories: ["Bijoux", "Mode"],
+    quantity: 1
   },
   {
     id: 20,
@@ -197,6 +183,7 @@ export const products = [
     rating: 4.9,
     userName: "Louise Dufresne",
     imgSrc: "/api/placeholder/400/300",
-    categories: ["Décoration", "Textiles"]
+    categories: ["Décoration", "Textiles"],
+    quantity: 1
   }
 ];

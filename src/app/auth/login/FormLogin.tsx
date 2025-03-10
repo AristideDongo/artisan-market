@@ -12,10 +12,10 @@ export default function FormLogin({ handleSubmit }: FormLoginProps) {
   return (
     <div>
       <div className="text-center">
-        <h1 className="text-3xl font-extrabold text-white">
+        <h1 className="text-3xl font-extrabold text-gray-700">
           Marketplace Artisanale
         </h1>
-        <h2 className="mt-3 text-xl font-bold text-white">Connexion</h2>
+        <h2 className="mt-3 text-xl font-bold text-gray-700">Connexion</h2>
       </div>
 
       <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -23,7 +23,7 @@ export default function FormLogin({ handleSubmit }: FormLoginProps) {
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-white"
+              className="block text-sm font-medium text-gray-700"
             >
               Adresse email
             </label>
@@ -43,7 +43,7 @@ export default function FormLogin({ handleSubmit }: FormLoginProps) {
           <div>
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-white"
+              className="block text-sm font-medium text-gray-700"
             >
               Mot de passe
             </label>
@@ -70,7 +70,7 @@ export default function FormLogin({ handleSubmit }: FormLoginProps) {
             />
             <label
               htmlFor="remember-me"
-              className="ml-2 block text-sm text-white"
+              className="ml-2 block text-sm text-gray-700"
             >
               Se souvenir de moi
             </label>
@@ -78,7 +78,7 @@ export default function FormLogin({ handleSubmit }: FormLoginProps) {
 
           <div className="text-sm">
             <Link
-              href="/forgot-password"
+              href="/auth/forgot-password"
               className="font-medium text-amber-600 hover:text-amber-500 transition-all duration-300"
             >
               Mot de passe oublié?
@@ -97,7 +97,7 @@ export default function FormLogin({ handleSubmit }: FormLoginProps) {
       </form>
 
       <div className="mt-6 text-center">
-        <p className="text-sm text-white">
+        <p className="text-sm text-gray-700">
           Pas encore de compte?{" "}
           <Link
             href="/auth/signup"

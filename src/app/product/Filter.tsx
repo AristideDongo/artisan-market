@@ -30,8 +30,8 @@ const FilterBar: React.FC<FilterBarProps> = ({ filters, onFilterChange }) => {
   };
 
   return (
-    <aside
-      className={`w-full bg-white mt-2 shadow-md px-4 py-3 transition-transform duration-300 z-40 
+    <div
+      className={`w-full bg-white mt-2 shadow-md px-4 py-3 transition-all duration-300 z-40 
       ${isSticky ? 'fixed top-[64px] left-0 right-0 border-b' : 'relative'}`}
     >
 
@@ -93,7 +93,7 @@ const FilterBar: React.FC<FilterBarProps> = ({ filters, onFilterChange }) => {
           </button>
         </div>
       </div>
-    </aside>
+    </div>
   );
 };
 

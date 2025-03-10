@@ -2,11 +2,12 @@
 import React from 'react';
 import { socialMedia } from '@/data/contactData';
 import FormContact from './FormContact';
+import MainLayout from '@/components/layout/GlobalLayout';
 
 export default function ContactPage() {
 
   return (
-    <div className="">
+    <MainLayout>
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-amber-600 text-white">
         <div className="max-w-7xl mx-auto">
@@ -48,6 +49,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-    </div>
+    </MainLayout>
   );
 }

@@ -4,6 +4,7 @@ import ProductGrid from "./ProductGrid";
 import FilterBar from "./Filter";
 import { useState } from "react";
 import Pagination from "@/components/common/Pagination";
+import MainLayout from "@/components/layout/GlobalLayout";
 
 export default function ProductPage() {
   const [filters, setFilters] = useState({
@@ -50,6 +51,7 @@ export default function ProductPage() {
   const currentProducts = filteredProducts.slice(indexOfFirstProdct, indexOfLastProduct)
 
   return (
+    <MainLayout>
     <div className="min-h-screen bg-background">
       {/* Filter Bar */}
       <FilterBar filters={filters} onFilterChange={handleFilterChange} />
@@ -65,5 +67,6 @@ export default function ProductPage() {
       onPageChange={paginate}
       />
     </div>
+    </MainLayout>
   );
 }

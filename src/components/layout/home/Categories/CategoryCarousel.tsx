@@ -16,7 +16,7 @@ export default function CategoryCarousel() {
     timeoutRef.current = setTimeout(() => {
       setIsAnimate(true);
       setCurrentIndex((prevIndex) => (prevIndex + 1) % categories.length);
-    }, 3000);
+    }, 2000);
   };
 
   useEffect(() => {

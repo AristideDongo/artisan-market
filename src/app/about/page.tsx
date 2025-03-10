@@ -7,10 +7,12 @@ import { artisantData, questionData } from '@/data/aboutData';
 import HeroSection from './Hero';
 import { GiEcology, GiWorld } from "react-icons/gi";
 import { FaHandshake, FaSearch } from 'react-icons/fa';
+import MainLayout from '@/components/layout/GlobalLayout';
 
 
 export default function AboutPage() {
   return (
+    <MainLayout>
     <div className="bg-amber-50">
       {/* Section Hero */}
         <HeroSection />
@@ -194,5 +196,6 @@ export default function AboutPage() {
         </div>
       </section>
     </div>
+    </MainLayout>
   );
 }

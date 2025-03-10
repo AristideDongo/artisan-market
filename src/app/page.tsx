@@ -1,4 +1,5 @@
 'use client'
+import MainLayout from "@/components/layout/GlobalLayout";
 import Category from "@/components/layout/home/Categories/Category";
 import ChooseUs from "@/components/layout/home/ChooseUs/ChooseUs";
 import HeroSlider from "@/components/layout/home/Hero/HeroSlider";
@@ -11,11 +12,11 @@ export default function Home() {
 
 
   return (
-    <main>
+    <MainLayout>
       <HeroSlider slides={sliderData} />
       <Category />
       <ProductGridHome products={products} />
       <ChooseUs />
-    </main>
+    </MainLayout>
   );
 }
